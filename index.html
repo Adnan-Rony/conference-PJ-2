@@ -9,8 +9,10 @@ data-theme="light">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;800&display=swap" rel="stylesheet">
     
+    
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
           .font-manrope{
                 font-family: 'Manrope', sans-serif;}
@@ -18,7 +20,7 @@ data-theme="light">
 </head>
 <body  class="bg-gradient-to-r from-[#191E24] to-[#353F4A] font-manrope">
     
-    <header>
+    <header class="conatiner mx-auto">
         <!-- navber -->
         
             <div class="navbar bg-[#191E24] text-white">
@@ -35,7 +37,7 @@ data-theme="light">
                   </div>
                 </div>
                 <div class="navbar-center">
-                  <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                  <a class="btn btn-ghost normal-case text-xl">DP-Conference</a>
                 </div>
                 <div class="navbar-end">
                   <button class="btn btn-ghost btn-circle">
@@ -50,13 +52,16 @@ data-theme="light">
                 </div>
               </div>
           <!-- banner -->
-          <section class=" text-white md:container md:mx-auto">
+
+
+
+          <!-- <section class=" text-white md:container md:mx-auto">
             <div class="flex lg:flex-row flex-col justify-around items-center font-mono ">
                 <div>
                    <div class="space-y-6">
-                    <h1 class="text-5xl font-extrabold">Enviroment <br>
-                        And WEB 3.0</h1>
-                        <!-- time -->
+                    <h1 class="text-5xl font-extrabold">International <br>
+                        Conference</h1>
+                       
                         <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                             <div class="flex flex-col">
                               <span class="countdown font-mono text-5xl">
@@ -90,30 +95,84 @@ data-theme="light">
                 </div>
 
             </div>
-          </section>
+          </section> -->
+
+<!-- carousel section -->
+
+<div class="carousel w-full lg:h-[550px]">
+  <div id="slide1" class="carousel-item relative w-full">
+    <div>
+     
+    </div>
+    <img src="./images/alexandre-pellaes-6vAjp0pscX0-unsplash.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <h1></h1>
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="./images/teemu-paananen-bzdhc5b3Bxs-unsplash.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="./images/headway-F2KRf_QfCqw-unsplash.jpg" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  
+</div>
+
+
+
+
 
     </header>
-    <main class="md:container md:mx-auto ">
-        <section class="mt-20">
-            <div class="flex lg:flex-row flex-col justify-around text-white">
+    <main class="">
+        <section class=" bg-[#151853] ">
+            <div class="flex lg:flex-row flex-col justify-around text-white pt-16 pb-16">
                 <div>
              
-                    <img src="./images/Image (1).png" alt="" class="rounded-md">
-                    <!-- <img src="./images/Image.png" alt="" class="relative bottom-36 left-60  w-72 rounded-md"> -->
-                    <!-- <img src="./images/Button.png" alt="" class="relative w-20 bottom-72 left-80"> -->
+                    <img src="./images/205970_175.jpg" alt="" class="rounded-md">
+                   
     
                 </div>
                 <div class="space-y-3">
                     <h1 class="text-4xl font-bold">About Conference</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollis quam malesuada <br> scelerisque ultrices gravida lobortis ac. Et vitae, et aliquam sed. </p>
-                    <p class="2xl font-medium">Daffodil International University,Dhaka</p>
-                    <div class="space-x-6">
-                        <button class="border-1 p-3  bg-[#242B33] text-white text-2xl font-bold">2 <br>
-                            Days Event
-                        </button>
-                        <button class="border-1 p-3 bg-[#242B33] text-white text-2xl font-bold">15+ <br>
-                            Speakers
-                        </button>
+                  
+
+                        <button class="btn btn btn-secondary "> INTERESTED -></button>
+                        <div class="flex gap-3 items-center">
+                          <div class="space-y-4">
+                            <p class="text-[#bd48bc]">CONFERENCE DATE</p>
+                            <p class="font-bold">COUNT EVERY SECOND <br> UNTIL THE EVENT</p>
+                          </div>
+                          <div class="flex ">
+                            <div class="border h-[100px] w-[100px] p-5 m-4">
+                              <span><p class="text-center font-bold text-2xl">00</p> <p>Months</p></span>
+
+                            </div>
+                            <div class="border h-[100px] w-[100px] p-5 m-4">
+                              <span><p class="text-center font-bold text-2xl">00</p> <p class="text-center">Days</p></span>
+
+                            </div>
+                            <div class="border h-[100px] w-[100px] p-5 m-4">
+                              <span><p class="text-center font-bold text-2xl">00</p> <p class="text-center">Hours</p></span>
+
+                            </div>
+
+                          </div>
+                        </div>
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -121,7 +180,10 @@ data-theme="light">
         </section>
         <!--  -->
         <section class=" text-white mt-20 md:container md:mx-auto ">
-            <h1 class="text-5xl font-bold text-center">Speakers</h1>
+            <div class="space-y-3">
+              <h1 class="text-3xl font-bold text-center">Our Speakers</h1>
+            <h1 class="text-5xl font-bold text-center">WHO’S SPEAKING</h1>
+            </div>
             <div class="lg:grid-cols-3 grid-cols-1 grid md:grid-cols-2 gap-5 text-white mt-10">
              
                 <div>
@@ -198,12 +260,15 @@ data-theme="light">
 
 
         <!--  -->
-        <section class="mt-25 text-white mt-20">
+        <section class="mt-25 pb-10  text-white mt-20 bg-[#151853]">
             
-            <div class="gap-y-5 text-center space-y-8">
-                <div class="space-y-4">
-                    <h1 class="text-center text-5xl font-bold">Conference Schedule</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollis  <br> quam malesuada scelerisque ultrices gravida </p>
+            <div class="gap-y-5  text-center space-y-8 pt-6 ">
+                <div class="space-y-4 ">
+                    <h1 class="text-[#df42b1] text-center text-2xl font-medium">OUR TIMETABLE
+                    </h1>
+                    <h1 class="text-5xl font-bold">SCHEDULE PLAN</h1>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollis  <br> quam malesuada scelerisque ultrices gravida </p> -->
+
                   </div>
                   <div>
                     <h1 class="text-2xl font-medium">Friday, 10 June 2023</h1>
@@ -261,23 +326,279 @@ data-theme="light">
            </div>
           </div>
          <div class="flex justify-center mt-5">
-            <button class="btn btn-secondary bg-[#EA3351] w-64 h-16 ">See All Shcedule</button>
+            <button class="btn btn-secondary bg-[#EA3351] w-64 h-16 ">See All Shcedule -</button>
          </div>
        
 
         </section>
+
         <!-- ticked -->
-        <section class="mt-20 bg-[#2f3041] p-24 items-center w-auto ">
+        <section class=" bg-[#2f3041] p-24 items-center w-auto ">
                 <div class="text-center text-white space-y-4">
-                    <h1 class="text-5xl font-extrabold ">Tickets</h1>
-                    <p class="text-2xl">We have a range of passes available to suit every schedule. Whether you are able to join us for all the  sessions throughout March, the three Day Conference, the Festival or even an individual Masterclass of your choice.</p>
+                  <h1 class="text-2xl">CHOOSE A TICKET</h1>
+                    <h1 class="text-5xl font-extrabold ">TICKET PRICING</h1>
+                    <!-- <p class="text-2xl">We have a range of passes available to suit every schedule. Whether you are able to join us for all the  sessions throughout March, the three Day Conference, the Festival or even an individual Masterclass of your choice.</p> -->
                 </div>
-                <div class="flex justify-center mt-5">
+                <!-- <div class="flex justify-center mt-5">
                     <button class="btn btn-secondary bg-[#EA3351] w-64 h-16 ">Sold Out</button>
+                 </div> -->
+
+                 <div class="grid lg:grid-cols-3 grid-cols-1 mx-auto mt-5">
+
+                  <div class="border  rounded-xl bg-white w-[330px] h-[552px]">
+                    <div class="flex justify-center">
+                      <h1 class="text-center bg-[#df42b1] w-1/2 rounded-xl p-3 text-white font-bold">1 DAY PASS</h1>
+                    </div>
+                    <img class="mx-auto mt-4" src="./images/p1.png.webp" alt="">
+                    <h1 class="text-center font-bold text-4xl">500 Tk</h1>
+                    <div class="flex justify-center mt-5">
+                      <button class="w-3/4 mx-auto btn btn btn-secondary hover:bg-gray-500">GET TICKETS -></button>
+                    </div>
+                    <div class="space-y-3 mt-4">
+                      
+                      <p class="text-center"><i class="fa-solid fa-check"></i> One Day Conference Ticket</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i> Coffee-break</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i>  Lunch and Networking</p>
+                      <p class="text-center"><i class="fa-solid fa-check"></i>  Keynote talk</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i>  Talk to the Editors Session</p>
+                    </div>
+
+
+
+                  </div>
+
+                  <div class="border  rounded-xl bg-white w-[330px] h-[552px]">
+                    <div class="flex justify-center">
+                      <h1 class="text-center bg-[#df42b1] w-1/2 rounded-xl p-3 text-white font-bold">FULL PASS</h1>
+                    </div>
+                    <img class="mx-auto mt-4" src="./images/p2.png.webp" alt="">
+                    <h1 class="text-center font-bold text-4xl">1000 Tk</h1>
+                    <div class="flex justify-center mt-5">
+                      <button class="w-3/4 mx-auto btn btn btn-secondary hover:bg-gray-500">GET TICKETS -></button>
+                    </div>
+                    <div class="space-y-3 mt-4">
+                      
+                      <p class="text-center"><i class="fa-solid fa-check"></i> One Day Conference Ticket</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i> Coffee-break</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i>  Lunch and Networking</p>
+                      <p class="text-center"><i class="fa-solid fa-check"></i>  Keynote talk</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i>  Talk to the Editors Session</p>
+                    </div>
+
+
+
+                  </div>
+
+                  <div class="border  rounded-xl bg-white w-[330px] h-[552px]">
+                    <div class="flex justify-center">
+                      <h1 class="text-center bg-[#df42b1] w-1/2 rounded-xl p-3 text-white font-bold">GROUP PASS</h1>
+                    </div>
+                    <img class="mx-auto mt-4" src="./images/p3.png.webp" alt="">
+                    <h1 class="text-center font-bold text-4xl">1500 Tk</h1>
+                    <div class="flex justify-center mt-5">
+                      <button class="w-3/4 mx-auto btn btn btn-secondary hover:bg-gray-500">GET TICKETS -></button>
+                    </div>
+                    <div class="space-y-3 mt-4">
+                      
+                      <p class="text-center"><i class="fa-solid fa-check"></i> One Day Conference Ticket</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i> Coffee-break</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i>  Lunch and Networking</p>
+                      <p class="text-center"><i class="fa-solid fa-check"></i>  Keynote talk</p>
+                      <p class="text-center"> <i class="fa-solid fa-check"></i>  Talk to the Editors Session</p>
+                    </div>
+
+
+
+                  </div>
                  </div>
+
+
+
+
+
+
+
+
+
         </section>
+        <!-- latest news -->
+        <section class="pt-8 pb-12">
+          <div class="mt-8">
+            <div class="space-y-4">
+              <h1 class="text-3xl font font-semibold text-center text-white">OUR BLOG</h1>
+              <h1 class="text-5xl font font-semibold text-center text-white">LATEST NEWS</h1>
+
+            </div>
+            <div class="grid lg:grid-cols-3 grid-cols-1 mt-10">
+              <!-- card-1 -->
+              <div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                  <figure><img src="/images/18.jpg.webp" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="text-center font-bold text-2xl">Street Food Convention</h2>
+                  <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-3">
+                      <i class="fa-regular fa-clock"></i> 
+                      <h1>January 14, 2023</h1>
+                    </div>
+
+                    <div class="flex gap-2 items-center">
+                      <i class="fa-solid fa-person"></i>
+                      <h1>Nafiur Rahman</h1>
+
+
+                    </div>
+                  </div>
+                    <p>Street Food Convention will showcase products like Packed food, beef and lamb, street food.</p>
+                    <div class="card-actions justify-center">
+                      <button class="btn btn-primary rounded-full text-3xl bg-[#D54CAF]">-></button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                  <figure><img src="/images/20.jpg.webp" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="text-center font-bold text-2xl">Dottopara Conference</h2>
+                  <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-3">
+                      <i class="fa-regular fa-clock"></i> 
+                      <h1>January 14, 2023</h1>
+                    </div>
+
+                    <div class="flex gap-2 items-center">
+                      <i class="fa-solid fa-person"></i>
+                      <h1>Nafiur Rahman</h1>
+
+
+                    </div>
+                  </div>
+                    <p>Street Food Convention will showcase products like Packed food, beef and lamb, street food.</p>
+                    <div class="card-actions justify-center">
+                      <button class="btn btn-primary rounded-full text-3xl bg-[#df42b1]">-></button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                  <figure><img src="/images/19.jpg.webp" alt="Shoes" /></figure>
+                  <div class="card-body">
+                    <h2 class="text-center font-bold text-2xl">Khagan Conference</h2>
+                  <div class="flex justify-between items-center">
+                    <div class="flex items-center gap-3">
+                      <i class="fa-regular fa-clock"></i> 
+                      <h1>January 14, 2023</h1>
+                    </div>
+
+                    <div class="flex gap-2 items-center">
+                      <i class="fa-solid fa-person"></i>
+                      <h1>Nafiur Rahman</h1>
+
+
+                    </div>
+                  </div>
+                    <p>Street Food Convention will showcase products like Packed food, beef and lamb, street food.</p>
+                    <div class="card-actions justify-center">
+                      <button class="btn btn-primary rounded-full text-3xl bg-[#df42b1]">-></button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+        <!--  -->
+        <section class="bg-[#151853] pt-8 pb-8">
+          <div>
+            <div class="space-y-3">
+              <h1  class=" text-center text-3xl text-[#df429c]">HAVE QUESTION?</h1>
+              <p class="text-center text-5xl font-bold text-white">CONTACT US</p>
+
+            </div>
+            <div class="flex justify-between gap-4">
+              <div class="space-y-3">
+                <div>
+                  <p class="text-white">Address:</p>
+                  <p class="text-white text-2xl font-semibold">184 Main Collins Street</p>
+
+                </div>
+                <div>
+                  <p class="text-white">Phone:</p>
+                  <p class="text-white text-2xl font-semibold">01747430447</p>
+
+                </div>
+                <div>
+                  <p class="text-white">Email:</p>
+                  <p class="text-white text-2xl font-semibold">abc@gmail.com</p>
+
+                </div>
+                <div>
+                  <p class="text-white">Website:</p>
+                  <p class="text-white text-2xl font-semibold">www.dottopara.com</p>
+
+                </div>
+
+              </div>
+              <div>
+                
+
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <section class="mt-20 md:container md:mx-auto text-white">
+          <div class="flex lg:flex-row flex-col justify-around">
+            <div>
+                <img src="./images/Screenshot 2023-08-04 150652.png" alt="" class="w-1/2">
+            </div>
+            <div>
+              <h1 class="text-4xl font-bold">Contact Us</h1> <br> 
+              <hr class="w-36 border-spacing-3">
+              <br>
+              <div class="space-y-8">
+             <a href="">PO Box 16122 Collins Street West Victoria 8007 Newyork</a> <br>
+  
+             
+             <i class="fa-solid fa-phone"></i> <a href="">+00882568935</a> <br>
+  
+              
+             <i class="fa-solid fa-phone"></i> <a href="">+01235689725</a> <br>
+             <i class="fa-regular fa-envelope"></i> <a href="">daffodil@gmail.com</a> <br>
+             <i class="fa-solid fa-location-dot"></i> <a href="">Ashuliya,Dhaka</a> <br>
+                <button class="btn bg-[#FF5733] text-white">Send Messaage</button>
+          
+            </div>
+  
+            </div>
+  
+          </div>
+  
+  
+        </section> -->
         <!-- sponser -->
-        <section class="mt-20">
+        <!-- <section class="mt-20">
             <h1 class="text-5xl font-extrabold text-white text-center">Sponser's</h1>
             <div class="grid lg:grid-cols-3  justify-center gap-y-10 items-center grid-cols-1 md:grid-cols-2 mt-10 bg-white p-12">
            
@@ -290,10 +611,10 @@ data-theme="light">
 
 
             </div>
-        </section>
+        </section> -->
       
     </main>
-    <footer class="mt-20">
+    <!-- <footer class="mt-20">
         <footer class="footer p-10 bg-base-200 text-base-content">
             <div>
               <span class="footer-title">Services</span> 
@@ -329,7 +650,7 @@ data-theme="light">
             </div>
           </footer>
 
-    </footer>
+    </footer> -->
     
 </body>
 </html>
